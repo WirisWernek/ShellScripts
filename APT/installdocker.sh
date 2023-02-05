@@ -14,3 +14,9 @@ apt-get update
 apt-get -y install docker-ce docker-ce-cli containerd.io
 systemctl start docker
 docker run hello-world
+
+
+
+
+# Instalação simplificada 
+curl -fsSl https://get.docker.com | bash
